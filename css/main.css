@@ -21,6 +21,10 @@
     margin-top: 30px;
 }
 
+.mb-10px{
+    margin-bottom: 10px;
+}
+
 .mb-30px{
     margin-bottom: 30px;
 }
@@ -86,4 +90,12 @@ header{
     height: 90px;
     width: 100%;
     background: #abcfe7;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #8801fe;    
 }
