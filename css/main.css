@@ -25,18 +25,65 @@
     margin-bottom: 30px;
 }
 
+.pxl20{
+    padding-right: 20px;
+}
+
+.pxt25{
+    padding-top: 25px;
+}
+
+.pxr20{
+    padding-left: 20px;
+}
+
+.pxb25{
+    padding-bottom: 25px;
+}
+
 /* Header */
 
 header{
-    background-color: violet;
+    background-color: #e579e6;
     height: 100px;
 }
 
 /* Main content */
 
 .main-content{
-    background-color: #cfcf17;
+    width: 60%;
+}
+
+.mains-content{
+    background-color: #e1d67a;
     width: 100%;
     height: 400px;
 }
 
+.debug-box{
+    height: 450px;
+    background: #abcfe7;
+}
+
+/* Sidebar */
+
+.sidebar,
+.main-content{
+    float: left;
+}
+
+.sidebar{
+    width: 20%;
+    background: #0484fb;
+    height: 100%;
+}
+
+.main-content{
+    width: 60%;
+}
+
+.mains-center-content{
+    height: 90px;
+    width: 100%;
+    background: #abcfe7;
+}
